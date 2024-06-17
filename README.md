@@ -90,10 +90,9 @@ The goal of this project is to adapt BERT for Named Entity Recognition (NER) tas
 
 To train and evaluate the model, run the respective Jupyter notebook files provided in the `drafts` directory. Here are the key notebooks to use:
 
-- `bert_train_2.ipynb`
-- `train_EWT_LOTR.ipynb`
-- `final_training.ipynb`
-- `make_predictions.ipynb`
+- `train_EWT.py`: Initial training on the EWT dataset.
+- `train_LOTR.py`: Fine-tuning on the LOTR dataset.
+- `train_EWT_LOTR.py`: Combined training on both EWT and LOTR datasets.
 
 ## Results
 
